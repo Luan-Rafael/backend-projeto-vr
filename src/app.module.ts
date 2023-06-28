@@ -10,10 +10,10 @@ import { UserModule } from './modules/user.module';
     TypeOrmModule.forRoot(
       {
         "type": "postgres",
-        "host": "34.30.234.246",
+        "host": "localhost",
         "port": 5432,
-        "username": "luanRafael",
-        "password": "${B=Rb1YuXYb6LME",
+        "username": "postgres",
+        "password": "Luan.2812",
         "database": "postgres",
         "autoLoadEntities": true,
         "synchronize": true
